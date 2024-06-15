@@ -36,3 +36,19 @@ class Monitor {
     return 'dummy';
   }
 }
+
+void main() {
+  //instance
+  Monitor myMonitor = Monitor('HP', '123j');
+  print(myMonitor.companyName);
+  print(myMonitor.model);
+
+  Monitor pcMonitor = Monitor('lenovo', '23s245');
+  pcMonitor.companyName = 'Samsung';
+  print(pcMonitor.companyName);
+  //print(pcMonitor._internalHardwareNo);//not working
+
+  myMonitor.printMethodName();
+  print(Monitor.sample);
+  print(Monitor.getSampleData());
+}
