@@ -13,7 +13,7 @@ class Monitor {
   /*Monitor(){
     print('screen name  is  $name');
   }*/
-  /*Monitor(String companyName,String model){
+  /* Monitor(String companyName,String model){
     print('Object is  created');
     print(companyName);
     print(model);
