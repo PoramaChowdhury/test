@@ -7,7 +7,7 @@ main(){
     3:'ib',
     4:'ASS',
     5:'ASS',
-    1:'as' //ager value ta ke override korbe//key always unique
+    //1:'as' //ager value ta ke override korbe//key always unique
   };
   print(list);
   list[70] = 'kn'; //ekta add

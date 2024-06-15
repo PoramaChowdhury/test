@@ -25,4 +25,6 @@ void main() {
   Khan obj2 = AmirKhan();
   Khan obj3 = ShahrukKhan();
   obj3.printMyName();
+  obj2.printMyName();
+
 }
