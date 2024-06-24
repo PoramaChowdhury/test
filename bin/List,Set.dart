@@ -36,9 +36,11 @@ void main()
 }
 
 //SET
+
 /*
 void main(){
   Set<String> StudentList = {};
+  //print(StudentList);
   StudentList.add('p');
   StudentList.add('pp');
   StudentList.add('p');
@@ -56,12 +58,13 @@ void main(){
   StudentList.clear();
   print(StudentList);
   print(StudentList.isEmpty);
-}*/
+}
+*/
 
 //amar kora gula
 //LIST Property
-/*
-void main() {
+
+/*void main() {
   var city = ['Dhaka','Syl','Cul','Ku'];
   //var result=city.isNotEmpty;
   //var result = city.isEmpty;
@@ -109,9 +112,11 @@ void main() {
   id.removeAt(2);//specific position
   id.remove(8);//value
   print(id);
-}
+}*/
+
 //03.05.24//Module2
 //Dart SET
+/*
 main(){
   var myCitySet =<String>{'Dhaka','Syl','Barisal','Syl'}; //duplicate add kora ajy na  jodi deya hoy tahole print e show korbe na
   myCitySet.add('Khulna');//single add
@@ -132,9 +137,10 @@ main(){
   print(myCitySet.isEmpty);
   print(myCitySet.hashCode);
 }
-
-
 */
+
+
+
 
 
 
